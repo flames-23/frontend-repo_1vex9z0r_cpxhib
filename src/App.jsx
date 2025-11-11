@@ -657,7 +657,7 @@ function ChatPanel({ token }) {
         <button disabled={busy} className="px-4 py-2 rounded-xl bg-primary text-white">{busy?'Thinking…':'Send'}</button>
       </form>
     </div>
-  )}
+  )
 }
 
 function CommandPalette({ open, setOpen }) {
